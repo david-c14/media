@@ -1,0 +1,76 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ version="1.0" width="600" height="400">
+
+  <rect width="600" height="400" style="stroke:none;fill:#FFF" />
+  <g transform="scale(0.5,0.5)">
+  <g style="fill:none;stroke-width:1">
+    <g style="stroke:#AAA"><!-- vertical grid -->
+      <path d="M 210, 50L 210,690"/>
+      <path d="M 320, 50L 320,690"/>
+      <path d="M 430, 50L 430,690"/>
+      <path d="M 540, 50L 540,690"/>
+      <path d="M 650, 50L 650,690"/><!-- 0 -->
+	  <g style="stroke:#EEE"><!-- π/4 -->
+        <path d="M 705, 50L 705,690"/>
+	  </g>
+      <path d="M 760, 50L 760,690"/>
+      <path d="M 870, 50L 870,690"/>
+      <path d="M 980, 50L 980,690"/>
+      <path d="M1090, 50L1090,690"/>
+    </g>
+    <g style="stroke:#000;stroke-width:1.50"><!-- x and y axis -->
+      <path d="M 170,370L1130,370"/>
+      <path d="M 650, 50L 650,690"/>
+    </g>
+  </g>
+  <defs>
+    <path id="path-SineBow" d="M 0.0000, 0.0000 C 35.874 81.966 70.190 160 110 160"/>
+    <clipPath id="clip-GraphArea">
+      <rect x="-480" y="-320" width="960" height="640" />
+    </clipPath>
+	<clipPath id="clip-LowerBow">
+	  <rect x="0" y="-320" width="55" height="640" />
+	</clipPath>
+	<clipPath id="clip-UpperBow">
+	  <rect x="55" y="-320" width="55" height="640" />
+	</clipPath>
+  </defs>
+  <g clip-path="url(#clip-GraphArea)" transform="translate(650,370)" style="fill:none;color:#000;stroke:#000;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0">
+    <g style="stroke:#000"><!-- sine -->
+      <use xlink:href="#path-SineBow" transform="translate(-440,0) scale(-1,1)"/>
+      <use xlink:href="#path-SineBow" transform="translate(-440,0) scale(1,-1)"/>
+      <use xlink:href="#path-SineBow" transform="translate(-220,0) scale(-1,-1)"/>
+      <use xlink:href="#path-SineBow" transform="translate(-220,0)"/>
+      <use xlink:href="#path-SineBow" transform="scale(-1,1)"/>
+      <g style="stroke:#F00" clip-path="url(#clip-LowerBow)"><use xlink:href="#path-SineBow" transform="scale(1,-1)"/></g>
+      <g style="stroke:#0FF" clip-path="url(#clip-UpperBow)"><use xlink:href="#path-SineBow" transform="scale(1,-1)"/></g>
+      <g style="stroke:#00F"><use xlink:href="#path-SineBow" transform="translate(220,0) scale(-1,-1)"/></g>
+      <g style="stroke:#F0F">
+		<use xlink:href="#path-SineBow" transform="translate(220,0)"/>
+        <use xlink:href="#path-SineBow" transform="translate(440,0) scale(-1,1)"/>
+	  </g>
+      <use xlink:href="#path-SineBow" transform="translate(440,0) scale(1,-1)"/>
+    </g>
+    <g style="stroke:#0F0"><!-- cosine -->
+      <g transform="translate(-110,0)">
+        <use xlink:href="#path-SineBow" transform="translate(220,0) scale(-1,-1)"/>
+	  </g>
+    </g>
+  </g>
+  <g style="stroke:none;fill:#000;font-family:Times,serif;font-size:30px">
+    <g style="text-anchor:middle"><!-- legend -->
+      <text x="210" y="740"><tspan>-2π</tspan></text>
+      <text x="320" y="740"><tspan>-3π/2</tspan></text>
+      <text x="430" y="740"><tspan>-π</tspan></text>
+      <text x="540" y="740"><tspan>-π/2</tspan></text>
+      <text x="650" y="740"><tspan>0</tspan></text>
+      <text x="705" y="740"><tspan>π/4</tspan></text>
+      <text x="760" y="740"><tspan>π/2</tspan></text>
+      <text x="870" y="740"><tspan>π</tspan></text>
+      <text x="980" y="740"><tspan>3π/2</tspan></text>
+      <text x="1090" y="740"><tspan>2π</tspan></text>
+    </g>
+  </g>
+  </g>
+</svg>
