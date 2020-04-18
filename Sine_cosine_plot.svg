@@ -12,7 +12,8 @@
       <path d="M 540, 50L 540,690"/>
       <path d="M 650, 50L 650,690"/><!-- 0 -->
 	  <g style="stroke:#EEE"><!-- π/4 -->
-        <path d="M 705, 50L 705,690"/>
+        <path d="M 595, 50L 595,690"/>
+        <path d="M 595, 50L 595,690"/>
 	  </g>
       <path d="M 760, 50L 760,690"/>
       <path d="M 870, 50L 870,690"/>
@@ -25,7 +26,8 @@
     </g>
   </g>
   <defs>
-    <path id="path-SineBow" d="M 0.0000, 0.0000 C 35.874 81.966 70.190 160 110 160"/>
+    <path id="path-SineBow-lower" d="M 0.0000, 0.0000 C 18.426, 42.115, 36.441, 83.177, 55, 113.16"/>
+	<path id="path-SineBow-upper" d="M 55, 113.16 C 72.575, 141.55, 90.637, 160, 110, 160"/>
     <clipPath id="clip-GraphArea">
       <rect x="-480" y="-320" width="960" height="640" />
     </clipPath>
@@ -38,25 +40,39 @@
   </defs>
   <g clip-path="url(#clip-GraphArea)" transform="translate(650,370)" style="fill:none;color:#000;stroke:#000;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0">
     <g style="stroke:#000"><!-- sine -->
-      <use xlink:href="#path-SineBow" transform="translate(-440,0) scale(-1,1)"/>
-      <use xlink:href="#path-SineBow" transform="translate(-440,0) scale(1,-1)"/>
-      <use xlink:href="#path-SineBow" transform="translate(-220,0) scale(-1,-1)"/>
-      <use xlink:href="#path-SineBow" transform="translate(-220,0)"/>
-      <use xlink:href="#path-SineBow" transform="scale(-1,1)"/>
-      <g style="stroke:#F00" clip-path="url(#clip-LowerBow)"><use xlink:href="#path-SineBow" transform="scale(1,-1)"/></g>
-      <g style="stroke:#0FF" clip-path="url(#clip-UpperBow)"><use xlink:href="#path-SineBow" transform="scale(1,-1)"/></g>
-      <g style="stroke:#00F"><use xlink:href="#path-SineBow" transform="translate(220,0) scale(-1,-1)"/></g>
-      <g style="stroke:#F0F">
-		<use xlink:href="#path-SineBow" transform="translate(220,0)"/>
-        <use xlink:href="#path-SineBow" transform="translate(440,0) scale(-1,1)"/>
-	  </g>
-      <use xlink:href="#path-SineBow" transform="translate(440,0) scale(1,-1)"/>
-    </g>
+      <use xlink:href="#path-SineBow-lower" transform="translate(-440,0) scale(-1,1)"/>
+      <use xlink:href="#path-SineBow-upper" transform="translate(-440,0) scale(-1,1)"/>
+      <use xlink:href="#path-SineBow-lower" transform="translate(-440,0) scale(1,-1)"/>
+      <use xlink:href="#path-SineBow-upper" transform="translate(-440,0) scale(1,-1)"/>
+      <use xlink:href="#path-SineBow-lower" transform="translate(-220,0) scale(-1,-1)"/>
+      <use xlink:href="#path-SineBow-upper" transform="translate(-220,0) scale(-1,-1)"/>
+      <use xlink:href="#path-SineBow-lower" transform="translate(-220,0)"/>
+      <use xlink:href="#path-SineBow-upper" transform="translate(-220,0)"/>
+      <use xlink:href="#path-SineBow-upper" transform="scale(-1,1)"/>
+	</g>  
     <g style="stroke:#0F0"><!-- cosine -->
-      <g transform="translate(-110,0)">
-        <use xlink:href="#path-SineBow" transform="translate(220,0) scale(-1,-1)"/>
-	  </g>
-    </g>
+	  <use xlink:href="#path-SineBow-upper" transform="translate(-110,0) scale(1,-1)"/>
+	  <use xlink:href="#path-SineBow-upper" transform="translate(110,0) scale(-1,-1)"/>
+	</g>  
+    <g style="stroke:#F00">
+      <use xlink:href="#path-SineBow-lower" transform="scale(-1,1)"/>
+	  <use xlink:href="#path-SineBow-lower" transform="scale(1,-1)"/>
+	</g>
+    <g style="stroke:#00F">
+	  <use xlink:href="#path-SineBow-upper" transform="scale(1,-1)"/>
+      <use xlink:href="#path-SineBow-upper" transform="translate(220, 0) scale(-1,-1)"/>
+	</g>
+    <g style="stroke:#F0F">
+	  <use xlink:href="#path-SineBow-lower" transform="translate(220, 0) scale(-1,-1)"/>
+	  <use xlink:href="#path-SineBow-lower" transform="translate(220,0)"/>
+	  <use xlink:href="#path-SineBow-upper" transform="translate(220,0)"/>
+      <use xlink:href="#path-SineBow-upper" transform="translate(440,0) scale(-1,1)"/>
+	</g>
+    <g style="stroke:#000">
+      <use xlink:href="#path-SineBow-lower" transform="translate(440,0) scale(-1,1)"/>
+      <use xlink:href="#path-SineBow-lower" transform="translate(440,0) scale(1,-1)"/>
+      <use xlink:href="#path-SineBow-upper" transform="translate(440,0) scale(1,-1)"/>
+    </g>    
   </g>
   <g style="stroke:none;fill:#000;font-family:Times,serif;font-size:30px">
     <g style="text-anchor:middle"><!-- legend -->
@@ -64,6 +80,7 @@
       <text x="320" y="740"><tspan>-3π/2</tspan></text>
       <text x="430" y="740"><tspan>-π</tspan></text>
       <text x="540" y="740"><tspan>-π/2</tspan></text>
+      <text x="595" y="740"><tspan>-π/4</tspan></text>
       <text x="650" y="740"><tspan>0</tspan></text>
       <text x="705" y="740"><tspan>π/4</tspan></text>
       <text x="760" y="740"><tspan>π/2</tspan></text>
