@@ -92,16 +92,16 @@
       <text x="1090" y="740"><tspan>2π</tspan></text>
     </g>
   </g>
-  <g style="stroke:none;fill:#000;font-family:Arial,Helvetica Neue,Helvetica,sans-serif;font-size:30px">
+  <g style="stroke:none;fill:#666;font-family:Arial,Helvetica Neue,Helvetica,sans-serif;font-size:30px">
     <g style="text-anchor:middle"><!-- legend -->
-      <text x="677.5" y="660"><tspan>0</tspan></text>
-      <text x="732.5" y="660"><tspan>1</tspan></text>
-      <text x="787.5" y="660"><tspan>2</tspan></text>
-      <text x="842.5" y="660"><tspan>3</tspan></text>
-      <text x="897.5" y="660"><tspan>4</tspan></text>
-      <text x="952.5" y="660"><tspan>5</tspan></text>
-      <text x="1007.5" y="660"><tspan>6</tspan></text>
-      <text x="1072.5" y="660"><tspan>7</tspan></text>
+      <text x="677.5" y="100"><tspan>0</tspan></text>
+      <text x="732.5" y="100"><tspan>1</tspan></text>
+      <text x="787.5" y="100"><tspan>2</tspan></text>
+      <text x="842.5" y="100"><tspan>3</tspan></text>
+      <text x="897.5" y="100"><tspan>4</tspan></text>
+      <text x="952.5" y="100"><tspan>5</tspan></text>
+      <text x="1007.5" y="100"><tspan>6</tspan></text>
+      <text x="1062.5" y="100"><tspan>7</tspan></text>
     </g>
   </g>
   </g>
