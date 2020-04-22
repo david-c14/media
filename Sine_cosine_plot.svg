@@ -5,13 +5,16 @@
   <rect width="600" height="400" style="stroke:none;fill:#FFF" />
   <g transform="scale(0.5,0.5)">
   <g style="fill:none;stroke-width:1">
-    <g style="stroke:#AAA"><!-- vertical grid -->
+    <g style="stroke:#999"><!-- vertical grid -->
       <path d="M 210, 50L 210,690"/>
       <path d="M 320, 50L 320,690"/>
       <path d="M 430, 50L 430,690"/>
       <path d="M 540, 50L 540,690"/>
       <path d="M 650, 50L 650,690"/><!-- 0 -->
-      <g style="stroke:#DDD">
+      <g style="stroke:#EEE">
+        <path d="M 595, 50L 265,690"/>
+        <path d="M 595, 50L 375,690"/>
+        <path d="M 595, 50L 485,690"/>
         <path d="M 595, 50L 595,690"/>
         <path d="M 705, 50L 705,690"/>
         <path d="M 815, 50L 815,690"/>
