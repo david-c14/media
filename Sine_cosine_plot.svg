@@ -11,10 +11,13 @@
       <path d="M 430, 50L 430,690"/>
       <path d="M 540, 50L 540,690"/>
       <path d="M 650, 50L 650,690"/><!-- 0 -->
-	  <g style="stroke:#EEE"><!-- π/4 -->
+      <g style="stroke:#DDD"><>
         <path d="M 595, 50L 595,690"/>
         <path d="M 705, 50L 705,690"/>
-	  </g>
+        <path d="M 815, 50L 705,690"/>
+        <path d="M 925, 50L 705,690"/>
+        <path d="M 1035, 50L 705,690"/>
+      </g>
       <path d="M 760, 50L 760,690"/>
       <path d="M 870, 50L 870,690"/>
       <path d="M 980, 50L 980,690"/>
@@ -87,6 +90,18 @@
       <text x="870" y="740"><tspan>π</tspan></text>
       <text x="980" y="740"><tspan>3π/2</tspan></text>
       <text x="1090" y="740"><tspan>2π</tspan></text>
+    </g>
+  </g>
+  <g style="stroke:none;fill:#000;font-family:Arial,Helvetica Neue,Helvetica,sans-serif;font-size:30px">
+    <g style="text-anchor:middle"><!-- legend -->
+      <text x="677.5" y="640"><tspan>0</tspan></text>
+      <text x="732.5" y="640"><tspan>1</tspan></text>
+      <text x="787.5" y="640"><tspan>2</tspan></text>
+      <text x="842.5" y="640"><tspan>3</tspan></text>
+      <text x="897.5" y="640"><tspan>4</tspan></text>
+      <text x="952.5" y="640"><tspan>5</tspan></text>
+      <text x="1007.5" y="640"><tspan>6</tspan></text>
+      <text x="1072.5" y="640"><tspan>7</tspan></text>
     </g>
   </g>
   </g>
