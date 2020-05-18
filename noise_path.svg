@@ -8,7 +8,7 @@
       <polygon style="fill:#F00" points="0 0, 8 3.5, 0 7" />
     </marker>
     <marker id="arrowhead_cyan" markerWidth="8" markerHeight="7" refX="8" refY="3.5" orient="auto">
-      <polygon style="fill:#06F" points="0 0, 8 3.5, 0 7" />
+      <polygon style="fill:#09F" points="0 0, 8 3.5, 0 7" />
     </marker>
   </defs>
   <g style="fill:none;stroke-width:1;stroke-linecap:round;">
@@ -34,7 +34,7 @@
       <path d="M25, 325l 550,0"/>
       <path d="M25, 375l 550,0"/>
     </g>
-    <g style="stroke:#06F" marker-end="url(#arrowhead_cyan)">
+    <g style="stroke:#09F" marker-end="url(#arrowhead_cyan)">
       <path d="M25, 25l 12, 16"/>
       <path d="M25, 75l -12, 16"/>
       <path d="M25, 125l -16, -12"/>
