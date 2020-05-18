@@ -27,7 +27,7 @@
       <path d="M105, 190l 90, -127.297"/>
     </g>
     <g style="stroke:#09F" marker-end="url(#arrowhead_cyan)">
-      <path d="M15, 62.721l -48, 64"/>
+      <path d="M15, 62.721l 64, 48"/>
     </g>
   </g>
 </svg>
