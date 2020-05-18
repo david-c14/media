@@ -1,0 +1,33 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ version="1.0" width="300" height="200">
+
+  <rect width="300" height="200" style="stroke:none;fill:#FFF;" />
+  <defs>
+    <marker id="arrowhead_red" markerWidth="8" markerHeight="7" refX="8" refY="3.5" orient="auto">
+      <polygon style="fill:#F00" points="0 0, 8 3.5, 0 7" />
+    </marker>
+    <marker id="arrowhead_cyan" markerWidth="8" markerHeight="7" refX="8" refY="3.5" orient="auto">
+      <polygon style="fill:#09F" points="0 0, 8 3.5, 0 7" />
+    </marker>
+  </defs>
+  <g style="fill:none;stroke-width:1;stroke-linecap:round;">
+    <g style="stroke:#EEE">
+      <path d="M105, 10l 180, 0"/>
+      <path d="M105, 190l 180, 0"/>
+      <path d="M105, 10l 0, 180"/>
+      <path d="M285, 10l 90, 180"/>
+      <path d="M105, 190l 180, -180"/>
+    </g>
+    <g style="stroke:#000">
+      <path d="M105, 190l 180, 0"/>
+      <path d="M15, 62.721l 180, 0"/>
+      <path d="M105, 190l -90, -127.279"/>
+      <path d="M285, 190l -90, -127.279"/>
+      <path d="M105, 190l 90, -127.297"/>
+    </g>
+    <g style="stroke:#09F" marker-end="url(#arrowhead_cyan)">
+      <path d="M15, 62.721l 48, 64"/>
+    </g>
+  </g>
+</svg>
