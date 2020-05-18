@@ -20,6 +20,19 @@
       <path d="M35, 25l 550,0"/>
       <path d="M35, 75l 550,0"/>
     </g>
+    <g style="stroke:#CCC">
+      <path d="M35, 25l 50,50"/>
+      <path d="M85, 25l 50,50"/>
+      <path d="M135, 25l 50,50"/>
+      <path d="M185, 25l 50,50"/>
+      <path d="M125, 25l 50,50"/>
+      <path d="M285, 25l 50,50"/>
+      <path d="M335, 25l 50,50"/>
+      <path d="M385, 25l 50,50"/>
+      <path d="M435, 25l 50,50"/>
+      <path d="M485, 25l 50,50"/>
+      <path d="M535, 25l 50,50"/>
+    </g>
     <g style="stroke:#09F">
       <path d="M35, 75l -25,-35.355"/>
       <path d="M85, 75l -25,-35.355"/>
