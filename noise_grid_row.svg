@@ -1,0 +1,40 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ version="1.0" width="600" height="100">
+
+  <rect width="600" height="100" style="stroke:none;fill:#FFF;" />
+  <g style="fill:none;stroke-width:1;stroke-linecap:round;">
+    <g style="stroke:#000">
+      <path d="M35, 25l 0,50"/>
+      <path d="M85, 25l 0,50"/>
+      <path d="M135, 25l 0,50"/>
+      <path d="M185, 25l 0,50"/>
+      <path d="M235, 25l 0,50"/>
+      <path d="M285, 25l 0,50"/>
+      <path d="M335, 25l 0,50"/>
+      <path d="M385, 25l 0,50"/>
+      <path d="M435, 25l 0,50"/>
+      <path d="M485, 25l 0,50"/>
+      <path d="M535, 25l 0,50"/>
+      <path d="M585, 25l 0,50"/>
+      <path d="M35, 25l 550,0"/>
+      <path d="M35, 75l 550,0"/>
+    </g>
+    <g style="stroke:#09F">
+      <path d="M35, 25l -25,35.355"/>
+      <path d="M85, 25l -25,35.355"/>
+      <path d="M135, 25l -25,35.355"/>
+      <path d="M185, 25l -25,35.355"/>
+      <path d="M235, 25l -25,35.355"/>
+      <path d="M285, 25l -25,35.355"/>
+      <path d="M335, 25l -25,35.355"/>
+      <path d="M385, 25l -25,35.355"/>
+      <path d="M435, 25l -25,35.355"/>
+      <path d="M485, 25l -25,35.355"/>
+      <path d="M535, 25l -25,35.355"/>
+      <path d="M585, 25l -25,35.355"/>
+      <path d="M35, 25l 550,0"/>
+      <path d="M10, 60.355l 550,0"/>
+    </g>
+  </g>
+</svg>
