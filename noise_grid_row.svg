@@ -20,7 +20,7 @@
       <path d="M35, 25l 550,0"/>
       <path d="M35, 75l 550,0"/>
     </g>
-    <g style="stroke:#CCC">
+    <g style="stroke:#DDD">
       <path d="M35, 75l 50,-50"/>
       <path d="M85, 75l 50,-50"/>
       <path d="M135, 75l 50,-50"/>
@@ -49,7 +49,7 @@
       <path d="M35, 75l 550,0"/>
       <path d="M10, 39.645l 550,0"/>
     </g>
-    <g style="stroke:#6CF">
+    <g style="stroke:#9DF">
       <path d="M35, 75l 25,-35.355"/>
       <path d="M85, 75l 25,-35.355"/>
       <path d="M135, 75l 25,-35.355"/>
