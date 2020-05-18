@@ -1,0 +1,30 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ version="1.0" width="600" height="400">
+
+  <rect width="600" height="400" style="stroke:none;fill:#FFF" />
+  <g style="fill:none;stroke-width:1">
+    <g style="stroke:#000">
+      <path d="M25, 25l 0,350"/>
+      <path d="M75, 25l 0,350"/>
+      <path d="M125, 25l 0,350"/>
+      <path d="M175, 25l 0,350"/>
+      <path d="M225, 25l 0,350"/>
+      <path d="M275, 25l 0,350"/>
+      <path d="M325, 25l 0,350"/>
+      <path d="M375, 25l 0,350"/>
+      <path d="M425, 25l 0,350"/>
+      <path d="M475, 25l 0,350"/>
+      <path d="M525, 25l 0,350"/>
+      <path d="M575, 25l 0,350"/>
+      <path d="M25, 25l 550,0"/>
+      <path d="M25, 75l 550,0"/>
+      <path d="M25, 125l 550,0"/>
+      <path d="M25, 175l 550,0"/>
+      <path d="M25, 225l 550,0"/>
+      <path d="M25, 275l 550,0"/>
+      <path d="M25, 325l 550,0"/>
+      <path d="M25, 375l 550,0"/>
+    </g>
+  </g>
+</svg>
