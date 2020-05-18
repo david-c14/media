@@ -36,13 +36,13 @@
     </g>
     <g style="stroke:#0FF" marker-end="url(#arrowhead_cyan)">
       <path d="M25, 25l 12, 16"/>
-      <path d="M25, 25l -12, 16"/>
-      <path d="M25, 25l -16, -12"/>
-      <path d="M25, 25l 12, 16"/>
-      <path d="M25, 25l -16, 12"/>
-      <path d="M25, 25l 16, -12"/>
-      <path d="M25, 25l -12, -16"/>
-      <path d="M25, 25l 16, -12"/>
+      <path d="M25, 75l -12, 16"/>
+      <path d="M25, 125l -16, -12"/>
+      <path d="M25, 175l 12, -16"/>
+      <path d="M25, 225l -16, 12"/>
+      <path d="M25, 275l 16, -12"/>
+      <path d="M25, 325l -12, -16"/>
+      <path d="M25, 375l 16, 12"/>
     </g>
     <g style="stroke:#F00" marker-end="url(#arrowhead_red)">
       <path d="M25, 375L 575, 340"/>
