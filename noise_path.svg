@@ -5,7 +5,7 @@
   <rect width="600" height="400" style="stroke:none;fill:#FFF;" />
   <defs>
     <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
-      <polygon style="fill:#F00" points="0 0, 10 3.5, 0 7" />
+      <polygon style="fill:#F00" points="-8 0, 0 3.5, -8 7" />
     </marker>
   </defs>
   <g style="fill:none;stroke-width:1;stroke-linecap:round;">
