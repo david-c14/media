@@ -2,7 +2,12 @@
  xmlns:xlink="http://www.w3.org/1999/xlink"
  version="1.0" width="600" height="400">
 
-  <rect width="600" height="400" style="stroke:none;fill:#FFF" />
+  <rect width="600" height="400" style="stroke:none;fill:#FFF;stroke-linecap:round;" />
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" />
+    </marker>
+  </defs>
   <g style="fill:none;stroke-width:1">
     <g style="stroke:#000">
       <path d="M25, 25l 0,350"/>
@@ -26,7 +31,7 @@
       <path d="M25, 325l 550,0"/>
       <path d="M25, 375l 550,0"/>
     </g>
-    <g style="stroke:#F00">
+    <g style="stroke:#F00" marker-end="url(#arrowhead)">
       <path d="M25, 375L 575, 340"/>
       <path d="M25, 340L 575, 305"/>
       <path d="M25, 305L 575, 270"/>
