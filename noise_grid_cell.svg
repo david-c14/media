@@ -12,7 +12,7 @@
     </marker>
   </defs>
   <g style="fill:none;stroke-width:1;stroke-linecap:round;">
-    <g style="stroke:#EEE">
+    <g style="stroke:#DDD">
       <path d="M105, 10l 180, 0"/>
       <path d="M105, 190l 180, 0"/>
       <path d="M105, 10l 0, 180"/>
