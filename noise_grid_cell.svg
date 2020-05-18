@@ -4,7 +4,7 @@
 
   <rect width="300" height="200" style="stroke:none;fill:#FFF;" />
   <defs>
-    <marker id="arrowhead_red" markerWidth="8" markerHeight="7" refX="8" refY="3.5" orient="auto">
+    <marker id="arrowhead_red" markerWidth="8" markerHeight="7" refX="12.5" refY="3.5" orient="auto">
       <polygon style="fill:#F00" points="0 0, 8 3.5, 0 7" />
     </marker>
     <marker id="arrowhead_cyan" markerWidth="8" markerHeight="7" refX="8" refY="3.5" orient="auto">
@@ -26,7 +26,6 @@
       <path d="M105, 190l -90, -127.279"/>
       <path d="M285, 190l -90, -127.279"/>
       <path d="M105, 190l 90, -127.297"/>
-      <circle cx="91.360" cy="112.218" r="4"/>
     </g>
     <g style="stroke:#09F" marker-end="url(#arrowhead_cyan)">
       <path d="M15, 62.721l 60, 45"/>
@@ -39,6 +38,9 @@
       <path d="M195, 62.721L 91.360, 112.218"/>
       <path d="M105, 190L 91.360, 112.218"/>
       <path d="M285, 190L 91.360, 112.218"/>
+    </g>
+    <g style="fill:#FFF;stroke:#000">
+      <circle cx="91.360" cy="112.218" r="4"/>
     </g>
   </g>
 </svg>
