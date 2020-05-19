@@ -22,10 +22,10 @@
     </g>
     <g style="stroke:#000">
       <path d="M105, 190l 180, 0"/>
-      <path d="M15, 62.721l 180, 0"/>
-      <path d="M105, 190l -90, -127.279"/>
-      <path d="M285, 190l -90, -127.279"/>
-      <path d="M105, 190l 90, -127.297"/>
+      <path d="M15, 34.115l 180, 0"/>
+      <path d="M105, 190l -90, -155.885"/>
+      <path d="M285, 190l -90, -155.885"/>
+      <path d="M105, 190l 90, -155.885"/>
       <circle cx="285" cy="190" r="180"/>
     </g>
     <g style="stroke:#09F" marker-end="url(#arrowhead_cyan)">
