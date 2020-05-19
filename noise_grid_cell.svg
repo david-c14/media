@@ -4,10 +4,10 @@
 
   <rect width="300" height="200" style="stroke:none;fill:#FFF;" />
   <defs>
-    <marker id="arrowhead_red" markerWidth="8" markerHeight="7" refX="12.5" refY="3.5" orient="auto">
+    <marker id="arrowhead_red" markerWidth="8" markerHeight="7" refX="11.5" refY="3.5" orient="auto">
       <polygon style="fill:#F00" points="0 0, 8 3.5, 0 7" />
     </marker>
-    <marker id="arrowhead_cyan" markerWidth="8" markerHeight="7" refX="8" refY="3.5" orient="auto">
+    <marker id="arrowhead_cyan" markerWidth="8" markerHeight="7" refX="7" refY="3.5" orient="auto">
       <polygon style="fill:#09F" points="0 0, 8 3.5, 0 7" />
     </marker>
   </defs>
