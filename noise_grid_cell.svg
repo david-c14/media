@@ -37,7 +37,7 @@
       <path d="M15, 34.115L 100, 94.737"/>
       <path d="M195, 34.115L 100, 94.737"/>
       <path d="M105, 190L 100, 94.737"/>
-      <path d="M285, 190L 100, 94.737"/>
+      <path stroke-dasharray="4" d="M285, 190L 100, 94.737"/>
     </g>
     <g style="fill:#FFF;stroke:#000">
       <circle cx="100" cy="94.737" r="4"/>
