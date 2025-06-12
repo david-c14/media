@@ -136,12 +136,12 @@
 
       <path d="M575, 25l 12, 16"/>
       <path d="M575, 75l -12, 16"/>
-      <path d="M575, 125l 16, -12"/>
-      <path d="M575, 175l 12, 16"/>
-      <path d="M575, 225l -16, -12"/>
-      <path d="M575, 275l -16, -12"/>
-      <path d="M575, 325l -12, 16"/>
-      <path d="M575, 375l 16, -12"/>
+      <path d="M575, 125l -16, -12"/>
+      <path d="M575, 175l 12, -16"/>
+      <path d="M575, 225l -16, 12"/>
+      <path d="M575, 275l 16, -12"/>
+      <path d="M575, 325l -12, -16"/>
+      <path d="M575, 375l 16, 12"/>
 
 </g>
     <g style="stroke:#F00" marker-end="url(#arrowhead_red)">
